@@ -1,0 +1,96 @@
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-link {
+  color: rgb(163, 163, 159);
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #fff !important;
+}
+
+span.navbar-toggler-icon {
+  color: rgb(228, 227, 227) !important;
+  font-size: 32px;
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  margin-left: -12px !important;
+  margin-top: 2px !important;
+}
+
+.social-medias {
+  width: 37%;
+}
+
+.social-medias a {
+  color: #6c63ff;
+}
+
+p.content {
+  font-size: 18px;
+}
+
+p.guideline {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: rgb(238, 232, 232);
+}
+
+@media screen and (max-width: 576px) {
+  .social-medias {
+    width: 50%;
+    font-size: 40px;
+  }
+
+  p.content {
+    font-size: 20px;
+  }
+
+  p.guideline {
+    font-size: 23px;
+  }
+}
+
+/* Skills section */
+
+.skills {
+  margin-top: -172px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+p.skill-content {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+section.wav2 {
+  margin-top: -200px !important;
+  padding-top: 200px !important;
+}
+
+img.wave2 {
+  margin-top: -120px !important;
+}
+
+.img1,
+.img2 {
+  animation: springMotion 2s ease 1s infinite alternate-reverse;
+}
+
+@keyframes springMotion {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

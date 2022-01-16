@@ -1,0 +1,11 @@
+input {
+  background-color: #31363b !important;
+  outline: none !important;
+  border: none !important;
+  color: #6c63ff !important;
+}
+
+form button {
+  background-color: #6c63ff !important;
+  padding: 10px 35px !important;
+}
